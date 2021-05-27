@@ -1,0 +1,77 @@
+name: music_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  firebase_core: "^0.7.0"
+  cloud_firestore: "^0.16.0+1"
+  firebase_auth: "^0.20.1"
+  cupertino_icons: ^1.0.2
+  google_fonts: any
+  audioplayers: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design:  true
+  assets:
+    - assets/itunes.png
+    - assets/heart.png
+    - assets/hurt.jpg
+    - assets/dualipa.png
+    - assets/dua.png
+    - assets/settings.png
+    - assets/profile.png
+    - assets/back.png
+    - assets/to.png
+    - assets/lovemusic.png
+    - assets/cv.png
+    - assets/sound.png
+    - assets/low.png
+    - assets/prev.png
+    - assets/next.png
+    - assets/play.png
+    - assets/delete.png
+    - assets/profil.png
+    - assets/bruno.mp3
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+#fonts:
+#  family: Montserrat
+#  fonts:
+#    -
+#      asset: assets/Montserrat-Regular.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
